@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans JP";
+}
+
+header {
+  color: white;
+}
+
+.image {
+  overflow: hidden;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+  flex-wrap: wrap;
+  color: #f9faf8;
+}
+
+.content-inner {
+  flex-basis: 400px;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.information img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid pink;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-inner {
+  max-width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-inner span {
+  font-weight: bolder;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-inner {
+  background-color: #ff82ac;
+  max-width: 60%;
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  color: white;
+}
+
+header,
+.content,
+footer {
+  background-color: #1f2937;
+}
+
+button {
+  background-color: #ff82ac;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.content button {
+  border: 0px;
+}
+
+.modal button {
+  border: 2px solid white;
+}
