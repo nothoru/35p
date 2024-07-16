@@ -1,4 +1,4 @@
 # Landing Page
 
-Credits:
+Credits:\
 https://x.com/fuwafuwa_35 - GIFS
